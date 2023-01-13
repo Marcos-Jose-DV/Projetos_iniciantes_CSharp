@@ -87,13 +87,12 @@ namespace Calculadora
 
             Resultado(num1 / num2);
         }
+
         static void Resultado(double res)
         {
             Console.WriteLine($"Resultado = {res}");
-            Menu();
             Console.WriteLine();
+            Menu();
         }
-
-
     }
 }
